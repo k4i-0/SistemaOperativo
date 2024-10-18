@@ -1,21 +1,26 @@
-# Nombre del compilador
+# Nombre del ejecutable
+TARGET = carrera
+
+# Compilador
 CXX = g++
 
-# Opciones de compilación
-CXXFLAGS = -std=c++11 -pthread
-
-# Archivo ejecutable
-EXEC = carrera
+# Flags del compilador
+CXXFLAGS = -Wall -pthread
 
 # Archivos fuente
-SRC = carrera.cpp
+SRCS = carrera.cpp
 
-# Regla principal para compilar
-all: $(EXEC)
+# Objetos
+OBJS = $(SRCS:.cpp=.o)
 
-$(EXEC): $(SRC)
-	$(CXX) $(CXXFLAGS) -o $(EXEC) $(SRC)
+# Regla principal: compilar
+$(TARGET): $(OBJS)
+	$(CXX) $(CXXFLAGS) -o $(TARGET) $(OBJS)
 
-# Limpia los archivos generados
+# Regla para compilar los archivos .cpp
+%.o: %.cpp
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# Limpiar archivos objeto y ejecutable
 clean:
-	rm -f $(EXEC)
+	rm -f $(OBJS) $(TARGET)
