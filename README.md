@@ -19,7 +19,7 @@ Este proyecto incluye un archivo `Makefile` para facilitar la compilación. Para
 2. Ejecuta el siguiente comando en la terminal:
 
 ```
-   make
+make
 ```
 Esto generará el archivo ejecutable carrera.
 
