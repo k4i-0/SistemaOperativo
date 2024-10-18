@@ -1,5 +1,3 @@
-# SistemaOperativo
-
 # Simulador de Carrera de Autos
 
 Este proyecto simula una carrera de autos utilizando programación multihebras en C++. Cada automóvil corre en una hebra separada y la distancia que avanza, así como su velocidad, es aleatoria.
