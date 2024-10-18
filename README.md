@@ -33,8 +33,11 @@ Donde:
 
 <distancia_total> es la distancia en metros que los autos deben recorrer.
 <numero_de_autos> es la cantidad de autos que participarán en la carrera.
+
 Ejemplo:
 Si deseas simular una carrera de 100 metros con 3 autos, ejecuta:
+
+
 ./carrera 100 3
 
 
