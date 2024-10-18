@@ -18,17 +18,17 @@ Este proyecto incluye un archivo `Makefile` para facilitar la compilación. Para
    
 2. Ejecuta el siguiente comando en la terminal:
 
-   ```bash
+   ```
    make
-
+   ```
 Esto generará el archivo ejecutable carrera.
 
 Ejecución
 Para ejecutar el programa, puedes usar el siguiente comando:
 
-```
+   ```
    ./carrera <distancia_total> <numero_de_autos>
-```
+   ```
 
 
 Donde:
@@ -40,9 +40,9 @@ Ejemplo:
 Si deseas simular una carrera de 100 metros con 3 autos, ejecuta:
 
 
-```
+   ```
    ./carrera 100 3
-```
+   ```
 
 3. Guarda el archivo y sal del editor de texto (en `nano`, puedes guardar con `Ctrl+O` y salir con `Ctrl+X`).
 
