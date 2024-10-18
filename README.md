@@ -40,9 +40,6 @@ Si deseas simular una carrera de 100 metros con 3 autos, ejecuta:
 
 3. Guarda el archivo y sal del editor de texto (en `nano`, puedes guardar con `Ctrl+O` y salir con `Ctrl+X`).
 
-### Ahora tu proyecto tiene un archivo `README.md` que explica cómo compilar y ejecutar el programa.
-
-
 
 Autores
 
