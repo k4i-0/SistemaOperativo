@@ -27,7 +27,7 @@ Ejecución
 Para ejecutar el programa, puedes usar el siguiente comando:
 
 ```
-./carrera <distancia_total> <numero_de_autos>
+   ./carrera <distancia_total> <numero_de_autos>
 ```
 
 
@@ -41,7 +41,7 @@ Si deseas simular una carrera de 100 metros con 3 autos, ejecuta:
 
 
 ```
-./carrera 100 3
+   ./carrera 100 3
 ```
 
 3. Guarda el archivo y sal del editor de texto (en `nano`, puedes guardar con `Ctrl+O` y salir con `Ctrl+X`).
