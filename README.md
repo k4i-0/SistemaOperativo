@@ -34,7 +34,8 @@ Para ejecutar el programa, puedes usar el siguiente comando:
 
 Donde:
 
-<distancia a la meta es la distancia en metros que los autos deben recorrer.
+<distancia a la metaa> es la distancia en metros que los autos deben recorrer.
+
 <Numero de Autos> es la cantidad de autos que participarán en la carrera.
 
 
