@@ -24,6 +24,7 @@ make
 Esto generará el archivo ejecutable carrera.
 
 Ejecución
+
 Para ejecutar el programa, puedes usar el siguiente comando:
 
    ```
@@ -48,6 +49,6 @@ Si deseas simular una carrera de 100 metros con 3 autos, ejecuta:
 
 ## Autores
 
--Cristian Oñate
+- Cristian Oñate
 
--Guido Montecinos
+- Guido Montecinos
