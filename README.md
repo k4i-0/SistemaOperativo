@@ -28,14 +28,14 @@ Esto generará el archivo ejecutable carrera.
 Para ejecutar el programa, puedes usar el siguiente comando:
 
    ```
-   ./carrera <distancia_total> <numero_de_autos>
+   ./carrera <distancia a la meta> <Numero de Autos>
    ```
 
 
 Donde:
 
-<distancia_total> es la distancia en metros que los autos deben recorrer.
-<numero_de_autos> es la cantidad de autos que participarán en la carrera.
+<distancia a la meta es la distancia en metros que los autos deben recorrer.
+<Numero de Autos> es la cantidad de autos que participarán en la carrera.
 
 
 
@@ -44,7 +44,7 @@ Si deseas simular una carrera de 100 metros con 3 autos, ejecuta:
 
 
    ```
-   ./carrera 100 3
+   ./carrera 100 13
    ```
 
 
